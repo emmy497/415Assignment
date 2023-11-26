@@ -1,0 +1,112 @@
+.about-me-text{
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    
+}
+.about{
+  padding: 40px;  
+}
+
+
+.about h3 {
+  font-family: "Poppins";
+}
+.navbar{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+  
+  font-family: 'Poppins';
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+  z-index: 100;
+ 
+}
+
+.navbar a{
+  color: #000;
+  text-decoration: none;
+
+}
+
+.navbar a:hover{
+ color: #31313F;
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+
+.container {
+    width: 100%; 
+    background-color: #ddd; 
+  
+}
+
+
+.skills {
+    text-align: left; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    transition: 2s;
+  }
+
+  
+  .html {
+    width: 90%; 
+    background-color: #808080;
+    padding-left: 10px;
+    animation-name: barSlideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+} 
+  .css {
+    width: 80%; 
+    background-color: #808080;
+    padding-left: 10px;
+    animation-name: barSlideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+} 
+  .js {
+    width: 80%; 
+    background-color: #808080;  
+    padding-left: 10px;
+    animation-name: barSlideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+  .python {
+    width: 60%;
+     background-color: #808080; 
+      padding-left: 10px;
+      animation-name: barSlideIn;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+    } 
+
+  .react {
+    width: 80%;
+     background-color: #808080;  
+     padding-left: 10px;
+     animation-name: barSlideIn;
+     animation-duration: 1s;
+     animation-timing-function: ease-in-out;
+    } 
+
+
